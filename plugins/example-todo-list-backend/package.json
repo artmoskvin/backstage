@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@backstage/backend-common": "workspace:^",
+    "@backstage/backend-plugin-api": "workspace:^",
     "@backstage/config": "workspace:^",
     "@backstage/errors": "workspace:^",
     "@backstage/plugin-auth-node": "workspace:^",
@@ -35,6 +36,7 @@
     "yn": "^4.0.0"
   },
   "devDependencies": {
+    "@backstage/backend-defaults": "workspace:^",
     "@backstage/cli": "workspace:^",
     "@types/supertest": "^2.0.8",
     "@types/uuid": "^8.0.0",
